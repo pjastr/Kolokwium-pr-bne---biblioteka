@@ -47,7 +47,7 @@ namespace Biblioteka
                 {
                     d = Convert.ToChar(Console.ReadLine());
                 }
-                catch
+                catch  //połykanie wyjątku - do poprawy!
                 { }
 
                 WykonajDzialanie(d);
@@ -143,7 +143,7 @@ namespace Biblioteka
                     tytul = Console.ReadLine();
                 }
             }
-            public void PobierzDaneK()
+            public void PobierzDaneK() //pobieranie danych nie jest za dobre, jeśli już robić obsługę błędów to dobrze (w tej wersji nie było to wymagane)
             {
                 
                 Console.WriteLine("Podaj dane książki(tytul, id, wydawnictwo, rokWydania, liczba stron, imie, nazwisko): ");

@@ -18,7 +18,7 @@ namespace Biblioteka
         }
         override public void WypiszInfo()
         {
-            Console.WriteLine("{0} {1} {2} {3} {4}",this.tytul.Trim(), this.id,this.wydawnictwo.Trim(), this.rokWydania,this.numer);
+            Console.WriteLine("{0} {1} {2} {3} {4}",this.tytul.Trim(), this.id,this.wydawnictwo.Trim(), this.rokWydania,this.numer);  // tu też czy Trim() jest potrzebne?
         }
 
     }
